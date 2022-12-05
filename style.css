@@ -1,0 +1,51 @@
+body{
+    display:flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,49,155,1) 35%, rgba(0,212,255,1) 100%);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    padding: 100px;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 72px;
+    
+
+
+    
+}
+
+@media (max-width: 768px) {
+
+    h1{
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.29);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.3px);
+        -webkit-backdrop-filter: blur(5.3px);
+        border: 1px solid rgba(255, 255, 255, 0.42);
+        padding: 30px;
+        margin:10px;
+        border-radius: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 32px;
+        
+    
+    
+        
+    }
+
+
+
+}
